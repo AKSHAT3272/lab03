@@ -51,9 +51,9 @@ Two-String and Double.
 ```
 public Pet(String petsName)
 {
-petsName=name;
 }
 ```
+petsName=name;
 ## The following object creation will result in the constructor of the `Date` class being called. Can you write the constructor’s header?
 ```
 new Date("March", 23, 1861)
@@ -61,4 +61,4 @@ new Date("March", 23, 1861)
 ```
 Try to give meaningful names to the parameters.
 
-public Date(string Month,int date,int year)
+public Date(String Month,int date,int year)
