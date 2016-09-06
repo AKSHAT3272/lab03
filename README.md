@@ -51,9 +51,10 @@ Two-String and Double.
 ```
 public Pet(String petsName)
 {
+petsName=name;
 }
 ```
-petsName=name;
+
 ## The following object creation will result in the constructor of the `Date` class being called. Can you write the constructor’s header?
 ```
 new Date("March", 23, 1861)
